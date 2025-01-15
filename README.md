@@ -41,7 +41,7 @@ CursorKeeper is a lightweight Windows system tray application that constrains yo
 ## System Requirements
 
 - Windows 7 or later
-- .NET Framework 4.7.2 or later
+- .NET 8 or later
 - Administrator privileges (required for mouse hook functionality)
 
 ## Technical Details
