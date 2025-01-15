@@ -15,7 +15,7 @@ CursorKeeper is a lightweight Windows system tray application that constrains yo
 
 ## Installation
 
-1. Download the latest release from the [Releases](https://github.com/yourusername/cursorkeeper/releases) page
+1. Download the latest release from the [Releases](https://github.com/dib0/cursorkeeper/releases) page
 2. Extract the zip file to your desired location
 3. Run `CursorKeeper.exe`
 4. (Optional) Add to startup programs for automatic launch
@@ -65,7 +65,7 @@ This project is licensed under the MIT License - see below for details:
 ```
 MIT License
 
-Copyright (c) 2025 [Your Name]
+Copyright (c) 2025 Division By Zero
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -94,5 +94,5 @@ SOFTWARE.
 ## Support
 
 If you encounter any issues or have feature suggestions, please:
-1. Check the [Issues](https://github.com/yourusername/cursorkeeper/issues) page
+1. Check the [Issues](https://github.com/dib0/cursorkeeper/issues) page
 2. Create a new issue if your problem isn't already listed
