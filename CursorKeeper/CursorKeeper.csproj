@@ -5,11 +5,54 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>disable</ImplicitUsings>
     <UseWindowsForms>true</UseWindowsForms>
+    <StartupObject>CursorKeeper.Program</StartupObject>
+    <ApplicationIcon>Resources\tray-icon.ico</ApplicationIcon>
+    <Title>CursorKeeper</Title>
+    <Version>1.0.1</Version>
+    <Company>Division By Zero</Company>
+    <Copyright>(C)opyright 2025</Copyright>
+    <PackageProjectUrl>https://github.com/dib0/CursorKeeper</PackageProjectUrl>
+    <PackageIcon>tray-icon.png</PackageIcon>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/dib0/CursorKeeper</RepositoryUrl>
+    <Description>CursorKeeper is a lightweight Windows system tray application that constrains your mouse cursor to the primary screen. It's perfect for multi-monitor setups where you want to prevent accidental cursor movement to secondary displays.
+</Description>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
   </PropertyGroup>
   <ItemGroup>
     <None Remove="Resources\tray-icon16.png" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Resources\tray-icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
     <EmbeddedResource Include="Resources\tray-icon16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\screenshots\tray-icon.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
   </ItemGroup>
 </Project>
